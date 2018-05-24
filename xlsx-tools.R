@@ -52,6 +52,9 @@ xlstyle<-function(wb,ws,rows,cols,style=NULL) {
           "t.bold"=createStyle(textDecoration ="bold"),
           "t.ul"=createStyle(textDecoration ="underline"),
           "t.ul2"=createStyle(textDecoration ="underline2"),
+          "f.blue"=createStyle(fgFill="#7cc3ec"),
+          "f.green"=createStyle(fgFill="#53f4bf"),
+          "f.tan"=createStyle(fgFill="#fbf5dc"),
           default=NULL
     )
     if(!is.null(sty)){
